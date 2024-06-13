@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigate__admin div{
+    width: 100%;
+    padding: 8px 12px;
+    height: 40px;
+}
+.navigate__admin{
+    background-color: #288ad6;
+    height: 100vmax;
+    width: 13.33%;
+}
+.navigate__admin a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+.navigate__admin a:hover div{
+    border-right: 5px solid #ffd503;
+}
+.navigate__admin a:active div{
+    opacity: 0.4;
+}
+/**/
+.form-container {
+    margin-top: 24px;
+    margin-left: 80px;
+}
+
+.form-container .messages {
+    margin: 0;
+}
+
+.form-container input[type="text"],
+.form-container select{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 4px;
+    height: 30px;
+    width: 300px;
+}
+.form-container textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 4px;
+    width: 300px;
+}
+
+.form-container input[type="file"]{
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: inline-block;
+    float: left;
+    width: 100px; 
+}
+
+ button {
+    margin: 6px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #8daf15;
+    color: #fff;
+    border: none;
+}
+
+.form-container .link-to-product-details {
+    margin-top: 20px;
+    display: inline-block;
+}

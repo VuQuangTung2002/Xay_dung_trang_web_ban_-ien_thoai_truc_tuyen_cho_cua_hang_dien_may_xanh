@@ -1,0 +1,2 @@
+GET
+http://www.thegioididong.com/cart/api/location/GetDistrictsByProvinceId/121
